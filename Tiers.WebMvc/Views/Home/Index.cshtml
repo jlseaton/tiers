@@ -1,0 +1,35 @@
+﻿@model Tiers.WebMvc.Models.UserViewModel
+
+@{
+    ViewBag.Title = "Tiers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tiers MVC - All Users (from WebApi)</h2>
+
+@using (Html.BeginForm("", "search", FormMethod.Get))
+{
+    <p>
+        <input class="SubmitSearchButton" type="submit" name="search" value="Get via WebApi" /> 
+    </p>
+}
+
+<h2>Tiers - Random Single User (w/sensitive data):</h2>
+ID: @Model.User.ID Name: @Model.User.Name Secret: @String.Format("{0:0.##}", Model.User.Data)
+
+<h2>Tiers - All Users (no sensitive data)</h2>
+
+<table class="grid">
+   <tr>
+      <th>ID</th>
+      <th>Name</th>
+   </tr>
+@foreach (var item in Model.Users)
+{
+   <tr>
+      <td>@item.ID</td>
+      <td>@item.Name</td>
+      <td>@item.Data</td>
+   </tr>
+}
+</table>

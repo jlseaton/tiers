@@ -1,0 +1,1 @@
+"c:\program Files\winrar\winrar.exe" a -r -u -x*\bin -x*\bin\* -x*\obj -x*\obj\* -x*\packages -x*\packages\* -x*\testresults -x*\testresults\* tiers.zip *.* 

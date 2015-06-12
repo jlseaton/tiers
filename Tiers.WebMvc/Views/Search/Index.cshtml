@@ -1,0 +1,28 @@
+﻿@model Tiers.WebMvc.Models.UserViewModel
+
+@{
+    ViewBag.Title = "Tiers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tiers - All Users (from WebApi w/ no sensitive data)</h2>
+
+<table class="grid">
+   <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Data</th>
+   </tr>
+@foreach (var item in Model.Users)
+{
+   <tr>
+      <td>@item.ID</td>
+      <td>@item.Name</td>
+      <td>@item.Data</td>
+   </tr>
+}
+</table>
+<br />
+JSON Result: 
+<br /><br />
+@Model.Result

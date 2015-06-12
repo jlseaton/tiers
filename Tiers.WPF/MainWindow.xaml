@@ -1,0 +1,10 @@
+﻿<Window x:Class="Tiers.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tier Test" Height="400" Width="525">
+    <Grid>
+        <TextBox Name="textboxOutput1"></TextBox>
+        <Button Content="Get from WebApi" HorizontalAlignment="Left" Margin="59,34,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click"/>
+        <TextBox Height="155" Margin="59,107,29,58" TextWrapping="Wrap" Name="textboxOutput2" ScrollViewer.VerticalScrollBarVisibility="Auto" />
+    </Grid>
+</Window>
