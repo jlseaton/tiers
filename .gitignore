@@ -3,3 +3,18 @@
 ################################################################################
 
 /.vs
+/Tiers.Core/obj/Debug
+/Tiers.Data/obj/Debug
+/Tiers.Domain/obj/Debug
+/Tiers.Service/obj/Debug
+/Tiers.Tests/obj/Debug
+/Tiers.WebAngular/obj/Debug
+/Tiers.WPF/obj/Debug
+/Tiers.WinForms/obj/Debug
+/Tiers.WebMvc/bin
+/Tiers.WebMvc/obj/Debug
+/Tiers.WebApi/bin
+/Tiers.WebApi/obj/Debug
+/Tiers.WebApi.Tests/obj/Debug
+/Tiers.WebConsole/obj/Debug
+/Tiers.WebForms/obj/Debug
