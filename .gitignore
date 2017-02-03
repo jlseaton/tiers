@@ -19,3 +19,9 @@
 /Tiers.WebConsole/obj/Debug
 /Tiers.WebForms/obj/Debug
 /packages
+/Tiers.WebForms/bin
+/Tiers.Tests/bin/Debug
+/Tiers.WebAngular/bin
+/Tiers.WebApi.Tests/bin/Debug
+/Tiers.WebConsole/bin/Debug
+/Tiers.WPF/bin/Debug
